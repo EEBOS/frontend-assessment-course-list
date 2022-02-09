@@ -19,7 +19,6 @@
         "image": "",
         "updated_at": "2019-04-16T09:54:30.751Z",
         "created_at": "2019-04-16T09:54:30.751Z",
-        "length": 60,
         "pricing": {
             "amount": 30,
             "currency_code": "CAD"
@@ -45,7 +44,6 @@
         "image": "",
         "updated_at": "2018-11-13T104:12:20.751Z",
         "created_at": "2018-11-13T04:12:20.751Z",
-        "length": 45,
         "pricing": {
             "amount": 20,
             "currency_code": "CAD"
@@ -71,11 +69,7 @@
         "image": "",
         "updated_at": "2022-08-12T11:07:11.751Z",
         "created_at": "2016-08-12T11:07:39.751Z",
-        "length": 15,
-        "pricing": {
-            "amount": 25,
-            "currency_code": "CAD"
-        }
+        "length": 15
     },
     {
         "id": "B61BCFF95B2764BCC3D9529104E70BA98DD4A6DF",
@@ -96,12 +90,7 @@
         "description": "<p>Providing training on the proper use of fire extinguishers and adequate fire response will assist in preventing fires and minimize damages caused by a fire.</p><p>This course teaches participants how to prevent fires in the workplace by understanding how fires start, types of fires, the stages of a fire, and the proper use of fire extinguishers. The class also covers evacuation procedures and a discussion about when a trained worker might attempt to fight a fire.</p>",
         "image": "",
         "updated_at": "2022-02-11T16:37:09.751Z",
-        "created_at": "2021-02-11T16:45:40.751Z",
-        "length": 25,
-        "pricing": {
-            "amount": 15,
-            "currency_code": "CAD"
-        }
+        "created_at": "2021-02-11T16:45:40.751Z"
     },
     {
         "id": "3362559609119866B21055FBE5D80C24E1D928C9",
