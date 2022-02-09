@@ -1,8 +1,21 @@
 [
     {
-		"id": "",
-		"started_at": "",
-		"completed_at": "",
-		"course_id": "test-id-1"
+		"id": "7CB80911E8C73F503567BD140DBF72C4027067A8",
+		"course_id": "C02AC1DDD4174B710432CA6E955FF4DEC3168F09",
+        "completed_at": "2021-05-17T09:45:51.751Z"
+    },
+    {
+		"id": "D9805BEE7E227EB65C20FB7FABB1928E02BC5C86",
+		"course_id": "0D3DC0584CDBD524660AC8E915D53F0440EFEA97",
+        "completed_at": "2021-10-30T17:21:09.751Z"
+    },
+    {
+		"id": "B1E76D90CD443D29006B65CE34E3928AD4E6D6CE",
+		"course_id": "054DD5922301391A2A84FAF1AE865F037EA82D2D",
+        "completed_at": "2022-01-10T12:01:35.751Z"
+    },
+    {
+		"id": "DCD338785EF3E928B660E360E5AEF6A155FFA801",
+		"course_id": "3362559609119866B21055FBE5D80C24E1D928C9"
     }
 ]
