@@ -1,0 +1,108 @@
+[
+    {
+        "id": "C02AC1DDD4174B710432CA6E955FF4DEC3168F09",
+        "title": "Worker Health and Safety Awareness",
+        "description": "Workers need to be aware of their rights and responsibilities under the law. This course focuses on the health and safety rights and responsibilities of workers, supervisors and employers.",
+        "image": "",
+        "updated_at": "2020-02-09T16:19:40.751Z",
+        "created_at": "2020-02-09T16:19:40.751Z",
+        "length": 60,
+        "pricing": {
+            "amount": 50,
+            "currency_code": "CAD"
+        }
+    },
+    {
+        "id": "2668CBF8AE8D7B8AF344332C5BF3309E03864BF8",
+        "title": "Workplace Violence and Harassment",
+        "description": "Violence and harassment can have devastating consequences in the workplace. This course provides an overview of how to implement and manage the relevant policies and programs.",
+        "image": "",
+        "updated_at": "2019-04-16T09:54:30.751Z",
+        "created_at": "2019-04-16T09:54:30.751Z",
+        "pricing": {
+            "amount": 30,
+            "currency_code": "CAD"
+        }
+    },
+    {
+        "id": "0D3DC0584CDBD524660AC8E915D53F0440EFEA97",
+        "title": "Workplace Hazardous Materials Information System",
+        "description": "Workers who may be exposed to hazardous materials must be trained in WHMIS. This course will teach you how to identify hazards through pictograms, labels, and safety data sheets.",
+        "image": "",
+        "updated_at": "2018-12-07T17:19:30.751Z",
+        "created_at": "2018-10-15T15:19:10.751Z",
+        "length": 40,
+        "pricing": {
+            "amount": 40,
+            "currency_code": "CAD"
+        }
+    },
+    {
+        "id": "44BE132C867B79BCBE818DC15DF72EF198A0B75C",
+        "title": "Office Ergonomics",
+        "description": "Improper use of office equipment could lead to injury or long-term disability. This course outlines what ergonomics is, the effects, and identifying risk factors.",
+        "image": "",
+        "updated_at": "2018-11-13T104:12:20.751Z",
+        "created_at": "2018-11-13T04:12:20.751Z",
+        "pricing": {
+            "amount": 20,
+            "currency_code": "CAD"
+        }
+    },
+    {
+        "id": "E1D07BB533D1F6A8B21046DA7341E619BB491B2E",
+        "title": "Accessibility for Ontarians with Disabilities Act",
+        "description": "<p>This course will introduce and explain the standards that fully support the implementation of Accessibility for Ontarians with Disabilities Act (AODA). It aims to spread awareness and advance full participation of persons with disabilities in all aspects of life.</p>",
+        "image": "",
+        "updated_at": "2019-04-23T07:05:31.751Z",
+        "created_at": "2019-03-05T07:05:46.751Z",
+        "length": 120,
+        "pricing": {
+            "amount": 90,
+            "currency_code": "CAD"
+        }
+    },
+    {
+        "id": "054DD5922301391A2A84FAF1AE865F037EA82D2D",
+        "title": "Box Cutter and Utility Knife Safety",
+        "description": "<p>Best practices in working with box cutters, utility knives and related equipment can prevent injuries. Box cutter and Utility Knife Safety Training Online provides information about these best practices and related information.</p>",
+        "image": "",
+        "updated_at": "2022-08-12T11:07:11.751Z",
+        "created_at": "2016-08-12T11:07:39.751Z",
+        "length": 15
+    },
+    {
+        "id": "B61BCFF95B2764BCC3D9529104E70BA98DD4A6DF",
+        "title": "Canada Labour Code",
+        "description": "<p>Many Canadian workers are killed or injured on the job each year. The Canada Labour Code Part II charges employers with identifying and correcting health and safety problems. When employers identify and correct problems employees are less likely to get injured or become ill because of their work.</p>",
+        "image": "",
+        "updated_at": "2022-05-24T20:13:37.751Z",
+        "created_at": "2017-05-27T20:13:29.751Z",
+        "length": 240,
+        "pricing": {
+            "amount": 120,
+            "currency_code": "CAD"
+        }
+    },
+    {
+        "id": "EF709519B2C5A51A3549D1224D156E09180B12F2",
+        "title": "Fire Safety",
+        "description": "<p>Providing training on the proper use of fire extinguishers and adequate fire response will assist in preventing fires and minimize damages caused by a fire.</p><p>This course teaches participants how to prevent fires in the workplace by understanding how fires start, types of fires, the stages of a fire, and the proper use of fire extinguishers. The class also covers evacuation procedures and a discussion about when a trained worker might attempt to fight a fire.</p>",
+        "image": "",
+        "updated_at": "2022-02-11T16:37:09.751Z",
+        "created_at": "2021-02-11T16:45:40.751Z"
+    },
+    {
+        "id": "3362559609119866B21055FBE5D80C24E1D928C9",
+        "title": "Incident Investigation",
+        "description": "An incident can be defined as a sudden, unplanned event that causes or could have caused harm to a person, the environment, or property. Incidents and accidents can happen in any workplace, at anytime. Failure to properly investigate an incident or accident and determine its root cause can be costly. A proper investigation helps to measure the effectiveness of your company’s health and safety program, reveal hazards that were not identified during workplace inspections, examine actual events, and reveal potential trends.",
+        "image": "",
+        "updated_at": "2022-01-10T05:39:17.751Z",
+        "created_at": "2022-01-10T05:39:17.751Z",
+        "length": 85,
+        "pricing": {
+            "amount": 300,
+            "currency_code": "CAD"
+        }
+    }
+]
