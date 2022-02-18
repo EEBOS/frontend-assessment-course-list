@@ -43,34 +43,24 @@ A second page should display a list of courses that the user has added to their 
 Below the navigation bar there needs to be a group of controls that allow a user to adjust the courses on display. The controls need to follow this [design]() and the functionality is described below. These controls need to work in conjunction. 
 
 #### Title
-A text field that displays courses when the input is contained within the title.
+A text field that displays courses when the search input is contained within the title. This search should not be case sensitive.
 
 #### Price
-A checkbox group containing the options below. When an option is selected, only courses that match the option will be displayed.
+A checkbox group containing the options below. When an option is selected, only courses that match the option will be displayed. Selecting both would be equivalent to having none selected.
 * Free
 * Paid
 
-#### Length
-A dropdown menu containing the options below. When an option is selected, only courses that match the option will be displayed.
-* All [Default]
-* Quick (30 minutes or less)
-* Short (1 hour or less)
-* Medium (1 to 3 hours)
-* Long (3 hours or more)
-
 #### Sort By
-A dropdown menu containing a list of sortable fields and button indicating the sort order. When the order button is clicked, the button icon will change to match the change in state. If a course is sorted on an optional field and that option does not exist, that course needs to be excluded from being displayed.
+A dropdown menu containing the options below which are fields that can be sorted on and radio button group indicating sort order.
 
-**Fields**
-* Title
-* Created [Default]
-* Updated
-* Price
+**Options**
+Label     | Property    | Default
+----------|-------------|----------
+ Title    | title       | false
+ Created  | created_at  | true
 
-**Order**
-* Ascending (a to z / oldest to latest / low to high) 
-* Descending (z to a / latest to oldest / high to low) [Default]
-
-
-#### Completed
-A checkbox only made available to the User Courses page. When checked, only courses that have been completed will be displayed. Additionally, the completed field needs to be added to the Sort By control as an option only when on the User Course page.
+**Orders**
+Order       | Description                             | Default
+------------|-----------------------------------------|------------
+ Ascending  | a to z / oldest to latest / low to high | false
+ Descending | z to a / latest to oldest / high to low | true
