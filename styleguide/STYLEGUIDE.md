@@ -1,6 +1,6 @@
 # Assessment Style Guide
 
-Screenshots are presented at 1440px wide.
+Screenshots are presented at 1440px wide. The main content area has a max width of 1120px.
 
 ## Fonts
 
