@@ -14,9 +14,9 @@ The first thing you'll need to do is create a GitHub account if you don't have o
 
 Once you have your repository created, you will need to install some dependencies.
 
-`npm install`
-
 > One the dependencies is [parcelJS](https://parceljs.org/) (you don't need an understanding of parcel for this assessment) you may need to install this package globally. `npm install parcel -D -g`
+
+`npm install`
 
 After the dependencies have completed installing, start the application to make sure its working.
 
@@ -59,7 +59,7 @@ Label     | Property    | Default
  Created  | created_at  | true
 
 **Orders**
-Order       | Description                             | Default
-------------|-----------------------------------------|------------
- Ascending  | a to z / oldest to latest / low to high | false
- Descending | z to a / latest to oldest / high to low | true
+Order       | Description                       | Default
+------------|-----------------------------------|----------
+ Ascending  | a to z / oldest to latest | false
+ Descending | z to a / latest to oldest | true
