@@ -32,7 +32,6 @@ Body Text
 Page Title
 - Font Size               1.5rem
 - Font Weight             700
-- Line Height             1
 - Letter Spacing          -0.015em
 
 Page Title Label
@@ -57,7 +56,6 @@ Username
 Button
 - Font Size               0.875rem
 - Font Weight             600
-- Line Height             1.1
 
 Input
 - Font Weight             600
@@ -89,7 +87,7 @@ Free Tag
 Card Heading
 - Font Size               1.5rem
 - Font Weight             700
-- Line Height             1.25
+- Line Height             1.125
 - Letter Spacing          -0.015em
 
 Card Description
@@ -138,11 +136,11 @@ Button Font Size          0.875rem
 Button X Padding          1em
 Button Y Padding          0.5em
 Button Border Width       2px
-Button Border Radius      3px
+Button Border Radius      5px
 
 Input Font Size           1rem
 Input X Padding           1em
-Input Y Padding           0.75em
+Input Y Padding           0.625em
 Input Border Width        2px
 Input Border Radius       5px
 
