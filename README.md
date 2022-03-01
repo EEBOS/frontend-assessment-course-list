@@ -34,13 +34,13 @@ As a user I need to be able to see the list of courses that are on offer and hav
 Full details of the guide can be found [here](/styleguide/README.md).
 
 ### Task | Foundation
-Using a framework of your choice (React, Vue, Angular, etc), create a single page application containing a top bar navigation and two pages. The navigation bar needs to match this [design](/styleguide/03_Navbar.png). You will need to construct the user avatar from retrieving data from this endpoint `/api/user`.
+Using a framework of your choice (React, Vue, Angular, etc), create a single page application containing a top bar navigation and two pages. The navigation bar needs to match this [design](/styleguide/03_Navbar.png). You will need to construct the user avatar from retrieving data from this endpoint `/api/users`.
 
 ### Task | Course List
 The default page should display a list of courses cards matching this [design](/styleguide/05_Cards.png). The page needs to match this [design](/styleguide/01_CourseList.png). You can retrieve a list of courses from this endpoint `/api/courses`.
 
 ### Task | User Courses
-The second page should display a list of courses that the user has added to their account. Courses are cards matching this [design](/styleguide/05_Cards.png). The page needs to match this [design](/styleguide/02_History.png). You can retrieve a list of user courses from this endpoint `/api/user/courses`.
+The second page should display a list of courses that the user has added to their account. Courses are cards matching this [design](/styleguide/05_Cards.png). The page needs to match this [design](/styleguide/02_History.png). You can retrieve a list of user courses from this endpoint `/api/users/courses`.
 
 ### Task | Controls
 Below the navigation bar there needs to be a group of controls that allow a user to adjust the courses on display. The controls need to follow this [design](/styleguide/04_Controls.png) and the functionality is described below. These controls need to work in conjunction.
