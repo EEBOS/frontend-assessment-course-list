@@ -1,0 +1,15 @@
+@use '../app/vars' as vars;
+@use '../app/mixins' as mixin;
+
+.control {
+  $c: &;
+
+  &--checkbox {
+
+    & ~ #{$c}--label {
+      @include mixin.typeface--md;
+      color: vars.$body-color;
+      display: inline-block;
+    }
+  }
+} 
