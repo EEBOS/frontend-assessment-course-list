@@ -1,0 +1,51 @@
+@use '../app/vars' as vars;
+
+.controls {
+
+  &-radiogroup {
+    display: flex;
+    flex-wrap: nowrap;
+
+    & .control {
+
+      &__radio {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        clip: rect(0px, 0px, 0px, 0px);
+        white-space: nowrap;
+        padding: 0px;
+        margin: -1px;
+        overflow: hidden;
+        border-width: 0px;
+        border-style: initial;
+        border-color: initial;
+        border-image: initial;
+      }
+
+      &__label {
+        color: vars.$secondary;
+        border: 2px solid vars.$secondary;
+        padding: vars.$btn-padding;
+        font-size: vars.$font-size;
+        cursor: pointer;
+
+        &:first-of-type {
+          border-top-left-radius: vars.$btn-border-radius;
+          border-bottom-left-radius: vars.$btn-border-radius;
+        }
+
+        &:last-child {
+          border-top-right-radius: vars.$btn-border-radius;
+          border-bottom-right-radius: vars.$btn-border-radius;
+        }
+
+        &:hover,
+        &--active {
+          color: vars.$primary-light;
+          background-color: vars.$secondary;
+        }
+      }
+    }
+  }
+}

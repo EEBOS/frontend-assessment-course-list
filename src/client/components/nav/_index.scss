@@ -1,0 +1,25 @@
+@use '../app/vars' as vars;
+
+.app-nav {
+  order: 2;
+  
+  &__item {
+    cursor: pointer;
+    text-decoration: none;
+    color: vars.$primary;
+    height: (vars.$spacer * 3);
+    padding: vars.$spacer;
+    display: inline-flex;
+    align-items: center;
+    font-weight: vars.$font-bold;
+
+    &--active {
+      box-shadow: inset 0 -3px 0 vars.$primary;
+    }
+
+    &:hover {
+      background-color: vars.$primary-light;
+      text-decoration: underline;
+    }
+  }
+}

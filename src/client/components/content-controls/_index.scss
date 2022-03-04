@@ -1,0 +1,12 @@
+@use '../app/vars' as vars;
+@use '../app/mixins' as mixin;
+
+.controls {
+  @include mixin.typeface;
+  font-weight: vars.$font-bold;
+  display: flex;
+
+  &-checkgroup {
+    display: flex;
+  }
+}

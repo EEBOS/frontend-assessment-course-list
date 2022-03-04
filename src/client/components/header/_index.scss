@@ -1,0 +1,31 @@
+@use 'sass:math';
+@use '../app/vars' as vars;
+@use '../app/mixins' as mixin;
+
+.app-bar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  align-items: center;
+  padding: 0 vars.$spacer;
+  margin-bottom: vars.$spacer;
+  border-bottom: vars.$border;
+}
+
+.applicant-info {
+  order: 1;
+  padding: vars.$spacer;
+
+  &__title {
+    @include mixin.typeface__title--lg;
+    margin: 0 0 math.div(vars.$spacer, 4) 0;
+  }
+
+  &__subtitle {
+    @include mixin.typeface__title--xs;
+    display: block;
+    line-height: 1;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
+}
